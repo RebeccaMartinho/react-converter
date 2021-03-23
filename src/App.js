@@ -5,7 +5,7 @@ import Converter from './components/Converter'
 function App() {
   return (
     <div className="App">
-      <div className="container"></div>
+      
       <h1>Conversor de moedas</h1>
       <div className="line">
         <Converter currencyA="USD" currencyB="BRL" />
@@ -19,8 +19,8 @@ function App() {
         <Converter currencyA="EUR" currencyB="BRL" />
         <Converter currencyA="BRL" currencyB="EUR" />
       </div>
-      
     </div>
+    
   );
 }
 
