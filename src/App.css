@@ -1,18 +1,37 @@
-.line {
+body {
+  margin: 0;
   display: flex;
-  margin-top: 40px;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  text-align: center;  
 }
 
-h1 {
-  text-align: center;
-  
+.title {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: #BCA7F9;
+  margin-bottom: 10px;
+  padding: 10px 50px;
+  font-size: 20px;
+  border-radius: 5px; 
+}
+
+.equals {
+  margin: 0;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 .App {
   max-width: 1000px;
   margin: auto;
-  
+}
+
+.line {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #dadadaa2;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 

@@ -1,8 +1,5 @@
 .converter {
-  padding: 20px 60px;
-  width: 300px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  background-color: #0088a050;
+  padding: 20px 60px; 
   text-align: center;
   margin-bottom: 20px;
 }
@@ -11,29 +8,13 @@ h2 {
   text-align: center;
 }
 
-input {
-  padding: 5px 10px 5px 1px;
-}
-
-button {
-  background-color: #c75a00; /* Green */
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  margin-top: 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
+.input {
+  border: 1px solid #333;
   border-radius: 5px;
-  cursor: pointer;
-  
+  padding: 5px;
 }
 
-button:hover {
-   background-color:#c75a00b6;
-}
-
-button:focus{
-  outline-style: none;
+select {
+  margin-left: 5px;
+  padding: 4px;
 }
